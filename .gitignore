@@ -1,0 +1,42 @@
+
+# Python virtual environment
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.temp
+*.log
+
+# Videos
+*.mp4
+*.avi
+*.mov
+*.mkv
+
+# Extracted frames
+frames/
+new_frames/
+new_frames_video4/
+video_frames/
+
+# YOLO generated results
+runs/
+output/
+
+# YOLO model files
+*.pt
+
+# Large datasets
+dataset/
+badminton-player-detection.v4i.yolov8/
+
+# CSV / generated data
+*.csv
