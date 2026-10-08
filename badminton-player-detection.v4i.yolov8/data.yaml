@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 9
+names: ['0', 'Player1', 'Player2', 'badminton-player-detection', 'ball', 'p1', 'p2', 'person', 'player']
+
+roboflow:
+  workspace: voruganti-navya
+  project: badminton-player-detection-5y1y7
+  version: 4
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/voruganti-navya/badminton-player-detection-5y1y7/dataset/4

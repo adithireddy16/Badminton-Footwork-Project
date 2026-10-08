@@ -1,4 +1,3 @@
-
 # Python virtual environment
 .venv/
 
@@ -15,28 +14,5 @@ Thumbs.db
 *.temp
 *.log
 
-# Videos
-*.mp4
-*.avi
-*.mov
-*.mkv
-
-# Extracted frames
-frames/
-new_frames/
-new_frames_video4/
-video_frames/
-
-# YOLO generated results
-runs/
-output/
-
-# YOLO model files
-*.pt
-
-# Large datasets
-dataset/
-badminton-player-detection.v4i.yolov8/
-
-# CSV / generated data
+# CSV files
 *.csv
